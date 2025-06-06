@@ -1,6 +1,6 @@
 # UEA: Algoritmo y Diseño de Algoritmos.
 
-## 👑 Problema de las N-Reinas — Implementación en C++
+## 👑 Problema de las N-Reinas (Backtraking)
 
 Este proyecto implementa una solución al clásico **Problema de las N-Reinas** utilizando **recursividad y backtracking** en C++. El objetivo del problema es colocar `N` reinas en un tablero de ajedrez de `N x N` de manera que **ninguna reina ataque a otra**, es decir, que no compartan ni fila, ni columna, ni diagonal.
 
