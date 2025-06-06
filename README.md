@@ -37,16 +37,24 @@ main()
 - Inicializa un arreglo con -1 indicando que aún no hay reinas colocadas.
 - Llama a la función recursiva para calcular y mostrar soluciones.
 
+---
+
 ### 📌 Conceptos clave
 - 🔁 Backtracking: Exploración de todas las posibles configuraciones válidas mediante recursión.
 - ✅ Validación parcial: Solo se continúa explorando si la posición actual no entra en conflicto con las anteriores.
 - 🌳 Árbol de decisión: Cada nivel del árbol representa una fila del tablero.
 
-🎯 Objetivo del problema
+---
+
+### 🎯 Objetivo del problema
 Colocar N reinas en un tablero de N x N de forma que ninguna se amenace entre sí, resolviendo uno de los problemas más conocidos de la informática y teoría de algoritmos.
+
+---
 
 ### ⚠️ Importante:
 Esta implementación **no garantiza encontrar todas las soluciones posibles** para cualquier valor de `N`. El algoritmo está basado en backtracking, pero su lógica actual puede llegar a encontrar únicamente una o unas cuantas soluciones dependiendo del orden en el que se recorra el árbol de decisiones.
+
+---
 
 ### ▶️ Compilación y ejecución
 💻 Compilar con g++
@@ -54,7 +62,9 @@ Esta implementación **no garantiza encontrar todas las soluciones posibles** pa
 g++ nReinas.cpp -o nreinas
 ./nreinas
 ```
-### 📤 Ejemplo de uso
+
+
+#### 📤 Ejemplo de uso
 Entrada:
 ```cpp
 Ingresar la cantidad de reinas : 4
