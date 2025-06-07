@@ -1,4 +1,4 @@
-# UEA: Algoritmo y Diseño de Algoritmos.
+# UEA: Análisis y Diseño de Algoritmos.
 
 ## 👑 Problema de las N-Reinas (Backtraking)
 
