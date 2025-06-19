@@ -6,6 +6,11 @@ Este proyecto implementa una solución al clásico **Problema de las N-Reinas** 
 
 ---
 
+### 🎯 Objetivo del problema
+Colocar N reinas en un tablero de N x N de forma que ninguna se amenace entre sí, resolviendo uno de los problemas más conocidos de la informática y teoría de algoritmos.
+
+---
+
 ### 📌 Descripción general
 
 - El algoritmo recorre el espacio de soluciones utilizando **árboles de decisión recursivos**.
@@ -43,11 +48,6 @@ main()
 - 🔁 Backtracking: Exploración de todas las posibles configuraciones válidas mediante recursión.
 - ✅ Validación parcial: Solo se continúa explorando si la posición actual no entra en conflicto con las anteriores.
 - 🌳 Árbol de decisión: Cada nivel del árbol representa una fila del tablero.
-
----
-
-### 🎯 Objetivo del problema
-Colocar N reinas en un tablero de N x N de forma que ninguna se amenace entre sí, resolviendo uno de los problemas más conocidos de la informática y teoría de algoritmos.
 
 ---
 
