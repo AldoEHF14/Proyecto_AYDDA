@@ -2,12 +2,12 @@
 
 ## 👑 Problema de las N-Reinas (Backtraking)
 
-Este proyecto implementa una solución al clásico **Problema de las N-Reinas** utilizando **recursividad y backtracking** en C++. El objetivo del problema es colocar `N` reinas en un tablero de ajedrez de `N x N` de manera que **ninguna reina ataque a otra**, es decir, que no compartan ni fila, ni columna, ni diagonal.
+Este proyecto implementa una solución al clásico **Problema de las N-Reinas** utilizando **recursividad y backtracking** en C++. 
 
 ---
 
 ### 🎯 Objetivo del problema
-Colocar N reinas en un tablero de N x N de forma que ninguna se amenace entre sí, resolviendo uno de los problemas más conocidos de la informática y teoría de algoritmos.
+El objetivo del problema es colocar `N` reinas en un tablero de ajedrez de `N x N` de manera que **ninguna reina ataque a otra**, es decir, que no compartan ni fila, ni columna, ni diagonal, resolviendo uno de los problemas más conocidos de la informática y teoría de algoritmos.
 
 ---
 
