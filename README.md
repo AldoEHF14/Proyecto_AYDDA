@@ -25,13 +25,6 @@ void Nreinas(int reinas[], int n, int k)
 ```
 Función recursiva principal que intenta colocar una reina en cada fila y, si es válida, avanza al siguiente nivel (k+1). Cuando se alcanza k == n, significa que se ha encontrado una solución completa.
 
-```cpp
-main()
-```
-- Solicita al usuario la cantidad de reinas N.
-- Inicializa un arreglo con -1 indicando que aún no hay reinas colocadas.
-- Llama a la función recursiva para calcular y mostrar soluciones.
-
 ---
 
 ### ▶️ Compilación y ejecución
