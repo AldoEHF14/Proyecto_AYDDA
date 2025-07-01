@@ -6,12 +6,12 @@ Este proyecto implementa una solución al clásico **Problema de las N-Reinas** 
 
 ---
 
-### 🎯 Objetivo del problema
+### 🎯 Objetivo
 El objetivo del problema es colocar `N` reinas en un tablero de ajedrez de `N x N` de manera que **ninguna reina ataque a otra**, es decir, que no compartan ni fila, ni columna, ni diagonal, resolviendo uno de los problemas más conocidos de la informática y teoría de algoritmos.
 
 ---
 
-### 📌 Descripción general
+### 📌 Descripción
 
 - El algoritmo recorre el espacio de soluciones utilizando **árboles de decisión recursivos**.
 - Utiliza un arreglo para almacenar las posiciones actuales de las reinas.
@@ -44,18 +44,6 @@ main()
 
 ---
 
-### 📌 Conceptos clave
-- 🔁 Backtracking: Exploración de todas las posibles configuraciones válidas mediante recursión.
-- ✅ Validación parcial: Solo se continúa explorando si la posición actual no entra en conflicto con las anteriores.
-- 🌳 Árbol de decisión: Cada nivel del árbol representa una fila del tablero.
-
----
-
-### ⚠️ Importante:
-Esta implementación **no garantiza encontrar todas las soluciones posibles** para cualquier valor de `N`. El algoritmo está basado en backtracking, pero su lógica actual puede llegar a encontrar únicamente una o unas cuantas soluciones dependiendo del orden en el que se recorra el árbol de decisiones.
-
----
-
 ### ▶️ Compilación y ejecución
 💻 Compilar con g++
 ```cpp
@@ -75,6 +63,8 @@ Solucion 1 : 1 , 3 , 0 , 2 ,
 Solucion 2 : 2 , 0 , 3 , 1 ,
 ```
 Cada número representa la columna en la que se colocó una reina por fila.
+
+> “⚠️ Importante: Esta implementación **no garantiza encontrar todas las soluciones posibles** para cualquier valor de `N`.”
 
 
 
